@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public enum SnakeDirection { UP, DOWN, LEFT, RIGHT }
@@ -59,6 +57,16 @@ public class Snake : MonoBehaviour
             gameWindow.Apply();
 
             timer = 0;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
         }
     }
     private void AccelerateTimerUpdateTime()

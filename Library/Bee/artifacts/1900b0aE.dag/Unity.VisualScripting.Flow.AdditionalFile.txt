@@ -1,1 +1,1 @@
-C:\Users\CARLA\SnakeGame
+C:\Users\CARLA\Documents\GitHub\Simple-Snake-Game

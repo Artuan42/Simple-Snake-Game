@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{43FBA058-4F56-B108-8FF4-7AC9224F51E0}</ProjectGuid>
+    <ProjectGuid>{DF8648CD-AD21-0A14-6E05-90EB5AA6B74D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -762,10 +762,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{E5507849-20B3-3477-A4A5-1DCD545788C9}</Project>
-      <Name>AmplifyShaderEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
