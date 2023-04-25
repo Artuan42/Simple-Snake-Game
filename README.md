@@ -10,3 +10,5 @@ The start buttons are for different things:
   -Little Button left -> Randomize player color
   -Little Button center -> Randomize background color
   -Little Button right -> Randomize point color
+  
+  Pressing the R key will reinitialize the game and the escape will exit the application.
